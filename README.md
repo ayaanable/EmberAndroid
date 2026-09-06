@@ -1,22 +1,84 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+# 🔥 Ember
+
+### A quiet place to write, reflect, and understand yourself.
+
+<br>
+
+<img src="app/src/main/res/drawable/img_ember_icon_clean.png" width="110">
+
+<br><br>
+
+**Offline-first journaling · Mood tracking · Personal reflections**
+
+<br>
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)](https://developer.android.com/compose)
+[![Room](https://img.shields.io/badge/Room-Local%20Storage-FF6F00?style=flat-square)](https://developer.android.com/training/data-storage/room)
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## About
 
-View your app in AI Studio: https://ai.studio/apps/79d6fdfc-253c-4322-a912-d34a53f685f4
+Ember is a simple Android journal built around one idea:
 
-## Run Locally
+> **Journaling shouldn't feel like another task to manage.**
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+Write about your day, record how you're feeling, and look back at your reflections over time.
 
+Everything works **offline**, so your journal stays on your device.
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+---
+
+## ✦ What you can do
+
+| | Feature | |
+|---|---|---|
+| 📝 | **Journal** | Write, edit and revisit your daily thoughts |
+| 🌤️ | **Mood** | Record how you're feeling alongside your entries |
+| 🔥 | **Streaks** | Build a consistent journaling habit |
+| 📖 | **Reflections** | Look back at what you've written |
+| 📊 | **Insights** | See patterns in your journaling activity |
+| 🔒 | **Offline** | Your core journal data stays on your device |
+
+---
+
+## 📱 Preview
+
+<div align="center">
+
+<img src="screenshots/today.png" width="220">
+<img src="screenshots/journal.png" width="220">
+<img src="screenshots/history.png" width="220">
+
+</div>
+
+> Screenshots will be added as the UI evolves.
+
+---
+
+## 🛠 Built with
+
+**Kotlin**  
+**Jetpack Compose**  
+**Room**  
+**Coroutines**  
+**StateFlow**  
+**Material Design**
+
+The app follows a simple flow:
+
+```text
+Compose UI
+    ↓
+ViewModel
+    ↓
+Repository
+    ↓
+Room
+    ↓
+Local device storage
