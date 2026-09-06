@@ -6,7 +6,6 @@
 
 <br>
 
-<img src="app/src/main/res/drawable/img_ember_icon_clean.png" width="110">
 
 <br><br>
 
