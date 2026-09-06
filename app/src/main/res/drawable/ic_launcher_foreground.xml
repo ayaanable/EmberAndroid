@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Left folded page / spine (Warm Terracotta Tone) -->
+    <path
+        android:fillColor="#E35D2B"
+        android:pathData="M 50,28 C 43.5,28 35,36.5 35,54 C 35,71.5 43.5,80 50,80 C 51.5,80 52,78.5 52,77 L 52,31 C 52,29.5 51.5,28 50,28 Z" />
+
+    <!-- Right turning page / ember flame (Vibrant Ember Orange) -->
+    <path
+        android:fillColor="#FF7A3D"
+        android:pathData="M 56,31 L 56,43 C 65,47 65,61 56,65 L 56,77 C 56,78.5 56.5,80 58,80 C 64.5,80 73,71.5 73,54 C 73,36.5 64.5,28 58,28 C 56.5,28 56,29.5 56,31 Z" />
+</vector>
