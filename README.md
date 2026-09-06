@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔥 Ember
+#  Ember
 
 ### A quiet place to write, reflect, and understand yourself.
 
